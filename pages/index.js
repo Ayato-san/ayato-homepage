@@ -1,16 +1,4 @@
-import {
-    Link,
-    Container,
-    Heading,
-    Box,
-    Image,
-    SimpleGrid,
-    Button,
-    List,
-    ListItem,
-    Icon,
-    useColorModeValue
-} from '@chakra-ui/react'
+import { Heading, Box, useColorModeValue } from '@chakra-ui/react'
 
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
