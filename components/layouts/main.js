@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <meta name="description" content="Rayann's homepage" />
+                <meta name="description" content="Porfolio  de Rayann Karon" />
                 <meta name="author" content="Rayann Karon" />
                 <meta name="author" content="Ayato-san" />
                 <link
@@ -25,7 +25,7 @@ const Main = ({ children, router }) => {
                 {/* <meta name="twitter:image" content="/card.png" /> */}
                 <meta
                     property="og:site_name"
-                    content="Rayann Karon's Homepage"
+                    content="Porfolio de Rayann Karon"
                 />
                 <meta property="og:type" content="website" />
                 {/* <meta property="og:image" content="/card.png" /> */}

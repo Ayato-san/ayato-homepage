@@ -18,7 +18,7 @@ const NotFound = () => {
             <Box my={6} align="center">
                 <NextLink href="/">
                     <Button colorScheme="blue">
-                        RRetourner à l&apos;accueil
+                        Retourner à l&apos;accueil
                     </Button>
                 </NextLink>
             </Box>
