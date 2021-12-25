@@ -4,8 +4,11 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
 import { ModelSpinner, ModelContainer } from './model-loader'
 
-const Model = props => {
-    const { modPath, modelName } = props
+function easeOutCirc(x) {
+    return Math.sqrt(1 - Math.pow(x - 1, 4))
+}
+// TODO resize le canvas
+const Model = ({ modPath, modelName }) => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const [renderer, setRenderer] = useState()
