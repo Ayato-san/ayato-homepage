@@ -16,10 +16,11 @@ const Site = () => (
                 Japon, Thaïlande, Vietnam, etc.…) en France sous des formats
                 cinématographiques (interviews, films, etc.…) et artistiques
                 (illustrations, danses, composition musicale, etc.…). Le site
-                internet vise à faciliter la communication et l'interactivité
-                avec les personnes qui ne sont pas membres de l'association afin
-                de partager les projets de l'association en permettant la
-                communication d'information, d'articles, d'évènements, de
+                internet vise à faciliter la communication et
+                l&apos;interactivité avec les personnes qui ne sont pas membres
+                de l&apos;association afin de partager les projets de
+                l&apos;association en permettant la communication
+                d&apos;information, d&apos;articles, d&apos;évènements, de
                 formations, de photos en galerie.
             </P>
             <List ml={4} my={4}>

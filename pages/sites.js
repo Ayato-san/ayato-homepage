@@ -20,16 +20,16 @@ const Site = () => (
                         title="Minebase"
                         thumbnail={thumbMinebase}
                     >
-                        Un site pour l'association Hanabi Event, qui a pour but
-                        de promouvoir la culture Asiatique
+                        Projet mener dans un cadre universitaire de site servant
+                        de document tation sur le jeux Minecraft
                     </SitesGridItem>
                     <SitesGridItem
                         id="hanabi-event"
                         title="Hanabi Event"
                         thumbnail={thumbHanabi}
                     >
-                        Un site pour l'association Hanabi Event, qui a pour but
-                        de promouvoir la culture Asiatique
+                        Un site pour l&apos;association Hanabi Event, qui a pour
+                        but de promouvoir la culture Asiatique
                     </SitesGridItem>
                 </Section>
                 <Section>
@@ -38,7 +38,7 @@ const Site = () => (
                         title="Vanir Project"
                         thumbnail={thumbVanir}
                     >
-                        Un site pour l'organisme Vanir Project,
+                        Un site pour l&apos;organisme Vanir Project,
                     </SitesGridItem>
                 </Section>
             </SimpleGrid>
