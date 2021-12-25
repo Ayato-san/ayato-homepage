@@ -11,7 +11,7 @@ const Site = () => (
                 Minebase <Badge>2020</Badge>
             </Title>
             <P>
-                Minebase à était réaliser dans le cadre d'un projet afin de
+                Minebase à était réaliser dans le cadre d&apos;un projet afin de
                 valider le cours de programmation web avec comme seul outils à
                 notre disposition HTML, CSS et Javascript natif
             </P>
