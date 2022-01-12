@@ -22,7 +22,10 @@ const Site = () => (
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Site Internet</Meta>
-                    <Link href="https://projet-html--htmlrodez.repl.co/">
+                    <Link
+                        href="https://projet-html--htmlrodez.repl.co/"
+                        isExternal
+                    >
                         minebase <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>

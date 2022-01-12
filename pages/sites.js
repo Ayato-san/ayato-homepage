@@ -20,9 +20,11 @@ const Site = () => (
                         title="Minebase"
                         thumbnail={thumbMinebase}
                     >
-                        Projet mener dans un cadre universitaire de site servant
-                        de document tation sur le jeux Minecraft
+                        Projet mené dans un cadre universitaire de site servant
+                        de documentation sur le jeux Minecraft
                     </SitesGridItem>
+                </Section>
+                <Section>
                     <SitesGridItem
                         id="hanabi-event"
                         title="Hanabi Event"
@@ -32,7 +34,7 @@ const Site = () => (
                         but de promouvoir la culture Asiatique
                     </SitesGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.1}>
                     <SitesGridItem
                         id="vanir-project"
                         title="Vanir Project"
