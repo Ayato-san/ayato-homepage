@@ -43,7 +43,7 @@ const Site = () => (
                 </ListItem>
                 <ListItem>
                     <Meta>Technologie</Meta>
-                    <span>PHP, Synphoni</span>
+                    <span>PHP, Laravel</span>
                 </ListItem>
             </List>
 
