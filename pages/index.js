@@ -21,7 +21,7 @@ const Home = () => (
                 textAlign="center"
                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
             >
-                Bonjour, je suis développeur full-stack basé en France!
+                Je suis développeur full-stack basé en France!
             </Box>
 
             <Box display={{ md: 'flex' }}>
@@ -29,7 +29,7 @@ const Home = () => (
                     <Heading as="h2" variant="page-title">
                         Rayann Karon
                     </Heading>
-                    <p>Artisan numérique ( Développeur / Modelisateur )</p>
+                    <p>Artisan numérique ( Développeur / Artiste 3D )</p>
                 </Box>
                 <Box
                     flexShrink={0}
@@ -56,8 +56,7 @@ const Home = () => (
                 </Heading>
                 <BioSection>
                     <BioYear>2020</BioYear>
-                    Obtention du Bac S avec option science du numérique à
-                    Cahors, France.
+                    Obtention du Bac S avec option science du numérique, France.
                 </BioSection>
                 <BioSection>
                     <BioYear>2020-2022</BioYear>
@@ -69,9 +68,9 @@ const Home = () => (
                     Passions
                 </Heading>
                 <Paragraph>
-                    Arts Matiaux, Modélisation 3D, Montage vidéo et photo,
-                    Effets spéciaux, Musique, Animation japonaise/Manga et la
-                    culture asiatique en génrale
+                    Arts Matiaux, Modélisation 3D, Montage vidéos/photos, Effets
+                    spéciaux, Musique et Culture Asiatique (manga, animation,
+                    ...)
                 </Paragraph>
             </Section>
         </Container>

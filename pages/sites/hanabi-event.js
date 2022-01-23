@@ -8,15 +8,15 @@ const Site = () => (
     <Layout title="Hanabi Event">
         <Container>
             <Title>
-                Hanabi Event <Badge>2021-....</Badge>
+                Hanabi Event <Badge>2021-2022</Badge>
             </Title>
             <P>
                 HANABI EVENT est une association loi 1901 créée en 2021 dont le
-                but est de promouvoir les cultures asiatiques (Chine, Corée,
-                Japon, Thaïlande, Vietnam, etc.…) en France sous des formats
-                cinématographiques (interviews, films, etc.…) et artistiques
-                (illustrations, danses, composition musicale, etc.…). Le site
-                internet vise à faciliter la communication et
+                but est de promouvoir, en France, les cultures asiatiques
+                (Chine, Corée, Japon, Thaïlande, Vietnam, etc.…) en France sous
+                des formats cinématographiques (interviews, films, etc.…) et
+                artistiques (illustrations, danses, composition musicale,
+                etc.…). Le site internet vise à faciliter la communication et
                 l&apos;interactivité avec les personnes qui ne sont pas membres
                 de l&apos;association afin de partager les projets de
                 l&apos;association en permettant la communication
@@ -27,7 +27,7 @@ const Site = () => (
                 <ListItem>
                     <Meta>Site Internet</Meta>
                     <Link href="#">
-                        pas encore en ligne <ExternalLinkIcon mx="2px" />
+                        Pas encore en ligne <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
                 <ListItem>
@@ -36,7 +36,7 @@ const Site = () => (
                 </ListItem>
                 <ListItem>
                     <Meta>Technologie</Meta>
-                    <span>PHP, Synphoni</span>
+                    <span>PHP, yasmf (framework php éducatif)</span>
                 </ListItem>
             </List>
 

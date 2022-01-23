@@ -12,30 +12,30 @@ const Site = () => (
             </Title>
             <P>
                 Vanir project est un groupe de plusieurs amis qui se sont
-                rencontrés sur les jeux vidéos , partagent des passions et des
-                activités comme ils en diffèrent les uns des autres. Ces membres
-                ont décidé de se réunir afin de créer une structure qui réunit
-                des joueurs du monde entier aux valeurs qu’ils défendent ,
-                notamment le fairplay, le savoir vivre sur internet ,
-                l’amusement etc...
+                rencontrés par le biais des jeux vidéos. Ayant des passions et
+                des activités différentes mais comme point commun l&apos;intérêt
+                du jeu. Ces membres ont décidé de s&apos;unir afin de créer une
+                structure qui réunit des joueurs du monde entier avec ces
+                valeurs qu’ils défendent, notamment le fairplay, le savoir vivre
+                sur internet, l&apos;amusement etc...
             </P>
             <P>
-                Afin de faire vivre la structure ils ont décidé de concentrer
-                les récompenses de leurs tournois vers une crypto-monnaie créé
-                spécialement pour le projet : les vani. Cette crypto-monnaie
-                servira en premier temps de récompense pour les tournois mais
-                aussi à récompenser les membres de l&apos;administration ainsi
+                Afin de faire vivre la structure, ils ont décidé de créer une
+                crypto-monnaie spécialement conçue pour ce projet : les "vani"
+                et ce afin de distribuer les gains des tournois. Cette
+                crypto-monnaie a pour but de récompenser les joueurs lors des
+                tournois, mais aussi les membres de l&apos;administration ainsi
                 que toutes les personnes qui travaillent activement au sein de
-                la structure tel que des coachs, qui proposeront à des élèves
-                gratuitement de s’améliorer sur des jeux auxquels ils sont
-                spécialisés , des modérateurs , des graphistes, des rédacteurs
-                ainsi que les membres de l&apos;administration.
+                la structure, tels que les coachs, qui proposeront à des élèves
+                de s’améliorer sur des jeux auxquels ils sont spécialisés, des
+                modérateurs, des graphistes, des rédacteurs ainsi que les
+                membres de l&apos;administration.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Site Internet</Meta>
                     <Link href="#">
-                        pas encore en ligne <ExternalLinkIcon mx="2px" />
+                        Pas encore en ligne <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
                 <ListItem>
