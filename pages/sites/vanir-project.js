@@ -21,15 +21,15 @@ const Site = () => (
             </P>
             <P>
                 Afin de faire vivre la structure, ils ont décidé de créer une
-                crypto-monnaie spécialement conçue pour ce projet : les "vani"
-                et ce afin de distribuer les gains des tournois. Cette
-                crypto-monnaie a pour but de récompenser les joueurs lors des
-                tournois, mais aussi les membres de l&apos;administration ainsi
-                que toutes les personnes qui travaillent activement au sein de
-                la structure, tels que les coachs, qui proposeront à des élèves
-                de s’améliorer sur des jeux auxquels ils sont spécialisés, des
-                modérateurs, des graphistes, des rédacteurs ainsi que les
-                membres de l&apos;administration.
+                crypto-monnaie spécialement conçue pour ce projet : les
+                &quot;vani&quot; et ce afin de distribuer les gains des
+                tournois. Cette crypto-monnaie a pour but de récompenser les
+                joueurs lors des tournois, mais aussi les membres de
+                l&apos;administration ainsi que toutes les personnes qui
+                travaillent activement au sein de la structure, tels que les
+                coachs, qui proposeront à des élèves de s’améliorer sur des jeux
+                auxquels ils sont spécialisés, des modérateurs, des graphistes,
+                des rédacteurs ainsi que les membres de l&apos;administration.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
