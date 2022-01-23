@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 
 const CGI = () => (
     <Layout title="3D">
-        <Container>page en cours de création</Container>
+        <Container>Page en cours de création</Container>
     </Layout>
 )
 

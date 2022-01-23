@@ -13,23 +13,22 @@ const Site = () => (
             <P>
                 Vanir project est un groupe de plusieurs amis qui se sont
                 rencontrés par le biais des jeux vidéos. Ayant des passions et
-                des activités différentes mais comme point commun l&apos;intérêt
-                du jeu. Ces membres ont décidé de s&apos;unir afin de créer une
-                structure qui réunit des joueurs du monde entier avec ces
-                valeurs qu’ils défendent, notamment le fairplay, le savoir vivre
-                sur internet, l&apos;amusement etc...
+                des activités différentes mais, comme point commun
+                l&apos;intérêt du jeu. Ces membres ont décidé de s&apos;unir
+                afin de créer une structure qui réunit des joueurs du monde
+                entier avec comme valeurs: notamment le fairplay, le savoir
+                vivre sur internet, l&apos;amusement etc...
             </P>
             <P>
-                Afin de faire vivre la structure, ils ont décidé de créer une
-                crypto-monnaie spécialement conçue pour ce projet : les
-                &quot;vani&quot; et ce afin de distribuer les gains des
-                tournois. Cette crypto-monnaie a pour but de récompenser les
-                joueurs lors des tournois, mais aussi les membres de
-                l&apos;administration ainsi que toutes les personnes qui
-                travaillent activement au sein de la structure, tels que les
-                coachs, qui proposeront à des élèves de s’améliorer sur des jeux
-                auxquels ils sont spécialisés, des modérateurs, des graphistes,
-                des rédacteurs ainsi que les membres de l&apos;administration.
+                Afin de développer la structure et de distribuer les gains des
+                tournois, ils ont décidé de créer une crypto-monnaie
+                spécialement conçue pour Vanir : les &quot;vani&quot; . Cette
+                crypto-monnaie a pour but de récompenser les joueurs lors des
+                tournois, mais aussi les membres de l&apos;administration ainsi
+                que toutes les personnes qui travaillent activement au sein de
+                la structure, tels que les coachs, qui proposeront aux élèves de
+                s’améliorer sur des jeux, les modérateurs, les graphistes et les
+                rédacteurs.
             </P>
             <List ml={4} my={4}>
                 <ListItem>

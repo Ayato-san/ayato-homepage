@@ -21,7 +21,7 @@ const Home = () => (
                 textAlign="center"
                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
             >
-                Je suis développeur full-stack basé en France!
+                Développeur full-stack basé en France!
             </Box>
 
             <Box display={{ md: 'flex' }}>
