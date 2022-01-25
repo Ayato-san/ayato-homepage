@@ -13,7 +13,7 @@ const Site = () => (
             <P>
                 Minebase a été réalisé dans le cadre d&apos;un projet
                 universitaire dans le but de valider le cours de programmation
-                web avec comme seul directive l&apos;utilisation des outils
+                web avec comme seule directive l&apos;utilisation des outils
                 HTML, CSS et Javascript natif.
             </P>
             <P>Ce site a pour vocation de documenter sur le jeu Minecraft.</P>

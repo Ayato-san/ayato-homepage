@@ -21,7 +21,7 @@ const Home = () => (
                 textAlign="center"
                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
             >
-                Développeur full-stack basé en France!
+                Développeur full-stack basé en France !
             </Box>
 
             <Box display={{ md: 'flex' }}>
@@ -68,9 +68,9 @@ const Home = () => (
                     Passions
                 </Heading>
                 <Paragraph>
-                    Arts Matiaux, Modélisation 3D, Montage vidéos/photos, Effets
-                    spéciaux, Musique et Culture Asiatique (manga, animation,
-                    ...)
+                    Arts Martiaux, Modélisation 3D, Montage photos/vidéos,
+                    Effets spéciaux, Musique et Culture Asiatique (manga,
+                    animation, ...)
                 </Paragraph>
             </Section>
         </Container>
