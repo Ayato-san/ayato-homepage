@@ -23,57 +23,55 @@ const Home = () => (
             >
                 Développeur full-stack basé en France !
             </Box>
-
-            <Box display={{ md: 'flex' }}>
-                <Box flexGrow={1}>
-                    <Heading as="h2" variant="page-title">
-                        Rayann Karon
-                    </Heading>
-                    <p>Artisan numérique ( Développeur / Artiste 3D )</p>
-                </Box>
-                <Box
-                    flexShrink={0}
-                    mt={{ base: 4, md: 0 }}
-                    ml={{ md: 6 }}
-                    textAlign="center"
-                >
-                    <Image
-                        borderColor="whiteAlpha.800"
-                        borderWidth={2}
-                        borderStyle="solid"
-                        maxWidth="100px"
-                        display="inline-block"
-                        borderRadius="full"
-                        src="/images/rayann.png"
-                        alt="Profile image"
-                    />
-                </Box>
-            </Box>
-
-            <Section delay={0.2}>
-                <Heading as="h3" variant="section-title">
-                    Biographie
-                </Heading>
-                <BioSection>
-                    <BioYear>2020</BioYear>
-                    Obtention du Bac S avec option science du numérique, France.
-                </BioSection>
-                <BioSection>
-                    <BioYear>2020-2022</BioYear>
-                    DUT informatique à Rodez, France.
-                </BioSection>
-            </Section>
-            <Section delay={0.3}>
-                <Heading as="h3" variant="section-title">
-                    Passions
-                </Heading>
-                <Paragraph>
-                    Arts Martiaux, Modélisation 3D, Montage photos/vidéos,
-                    Effets spéciaux, Musique et Culture Asiatique (manga,
-                    animation, ...)
-                </Paragraph>
-            </Section>
         </Container>
+        <Box display={{ md: 'flex' }}>
+            <Box flexGrow={1}>
+                <Heading as="h2" variant="page-title">
+                    Rayann Karon
+                </Heading>
+                <p>Artisan numérique ( Développeur / Artiste 3D )</p>
+            </Box>
+            <Box
+                flexShrink={0}
+                mt={{ base: 4, md: 0 }}
+                ml={{ md: 6 }}
+                textAlign="center"
+            >
+                <Image
+                    borderColor="whiteAlpha.800"
+                    borderWidth={2}
+                    borderStyle="solid"
+                    maxWidth="100px"
+                    display="inline-block"
+                    borderRadius="full"
+                    src="/images/rayann.png"
+                    alt="Profile image"
+                />
+            </Box>
+        </Box>
+
+        <Section delay={0.2}>
+            <Heading as="h3" variant="section-title">
+                Biographie
+            </Heading>
+            <BioSection>
+                <BioYear>2020</BioYear>
+                Obtention du Bac S avec option science du numérique, France.
+            </BioSection>
+            <BioSection>
+                <BioYear>2020-2022</BioYear>
+                DUT informatique à Rodez, France.
+            </BioSection>
+        </Section>
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                Passions
+            </Heading>
+            <Paragraph>
+                Arts Martiaux, Modélisation 3D, Montage photos/vidéos, Effets
+                spéciaux, Musique et Culture Asiatique (manga, animation, ...)
+            </Paragraph>
+        </Section>
     </Layout>
 )
 
