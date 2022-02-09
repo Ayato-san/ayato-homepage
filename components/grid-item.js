@@ -1,6 +1,14 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import Section from '../components/section'
+import {
+    Box,
+    Text,
+    LinkBox,
+    LinkOverlay,
+    SimpleGrid,
+    Heading
+} from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const CGIItem = ({ children, title }) => (
@@ -30,6 +38,17 @@ export const SitesGridItem = ({ children, id, title, thumbnail }) => (
             </LinkBox>
         </NextLink>
     </Box>
+)
+
+export const ImgGrid = ({ children, title, delay = 0 }) => (
+    <Section delay={delay}>
+        <Heading as="h3" variant="section-title">
+            {title}
+        </Heading>
+        <SimpleGrid columns={[1, 1, 3]} gap={6}>
+            {children}
+        </SimpleGrid>
+    </Section>
 )
 
 export const GridItemStyle = () => (
