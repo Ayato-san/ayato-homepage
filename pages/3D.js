@@ -2,15 +2,11 @@ import Layout from '../components/layouts/article'
 import Image from 'next/image'
 import { ImgGrid } from '../components/grid-item'
 
-const decors = require('../public/rendus/decors.jpg')
-const rx = require('../public/rendus/RX78-2.png')
-const mushroom = require('../public/rendus/Mushroom.jpg')
-
 const CGI = () => (
     <Layout title="3D">
         <ImgGrid title="Décors">
             <Image
-                src={decors}
+                src={require('../public/rendus/decors.jpg')}
                 alt={'mon décors 3D'}
                 className="grid-item-thumbnail"
                 placeholder="blur"
@@ -18,7 +14,7 @@ const CGI = () => (
         </ImgGrid>
         <ImgGrid title="Personnage" delay={0.2}>
             <Image
-                src={rx}
+                src={require('../public/rendus/RX78-2.jpg')}
                 alt={'RX 78-2'}
                 className="grid-item-thumbnail"
                 placeholder="blur"
@@ -26,7 +22,7 @@ const CGI = () => (
         </ImgGrid>
         <ImgGrid title="Collection Bottle of world" delay={0.4}>
             <Image
-                src={mushroom}
+                src={require('../public/rendus/Mushroom.jpg')}
                 alt={'bottle of mushroom'}
                 className="grid-item-thumbnail"
                 placeholder="blur"
