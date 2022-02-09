@@ -22,7 +22,7 @@ const CGI = () => (
         </ImgGrid>
         <ImgGrid title="Collection Bottle of world" delay={0.4}>
             <Image
-                src={require('../public/rendus/mushroom.png')}
+                src={require('../public/rendus/Mushroom.png')}
                 alt={'bottle of mushroom'}
                 className="grid-item-thumbnail"
                 placeholder="blur"
