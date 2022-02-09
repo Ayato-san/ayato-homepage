@@ -2,9 +2,9 @@ import Layout from '../components/layouts/article'
 import Image from 'next/image'
 import { ImgGrid } from '../components/grid-item'
 
-const decors = require('../public/rendus/décors.png')
+const decors = require('../public/rendus/decors.jpg')
 const rx = require('../public/rendus/RX78-2.png')
-const mushroom = require('../public/rendus/Mushroom.png')
+const mushroom = require('../public/rendus/Mushroom.jpg')
 
 const CGI = () => (
     <Layout title="3D">
