@@ -31,8 +31,8 @@ const Site = () => (
         <List ml={4} my={4}>
             <ListItem>
                 <Meta>Site Internet</Meta>
-                <Link href="#">
-                    Pas encore en ligne <ExternalLinkIcon mx="2px" />
+                <Link href="https://www.vanirproject.com/">
+                    Vanir Project <ExternalLinkIcon mx="2px" />
                 </Link>
             </ListItem>
             <ListItem>
@@ -41,7 +41,7 @@ const Site = () => (
             </ListItem>
             <ListItem>
                 <Meta>Technologie</Meta>
-                <span>PHP, Laravel</span>
+                <span>PHP, Laravel (jetstream), Tailwind</span>
             </ListItem>
         </List>
 

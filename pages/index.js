@@ -55,12 +55,17 @@ const Home = () => (
                 Biographie
             </Heading>
             <BioSection>
-                <BioYear>2020</BioYear>
-                Obtention du Bac S avec option science du numérique, France.
+                <BioYear>2022-2023</BioYear>
+                Licence professionnel Multimédia, Mobilité et Sécurité à Rodez,
+                France.
             </BioSection>
             <BioSection>
                 <BioYear>2020-2022</BioYear>
                 DUT informatique à Rodez, France.
+            </BioSection>
+            <BioSection>
+                <BioYear>2020</BioYear>
+                Obtention du Bac S avec option science du numérique, France.
             </BioSection>
         </Section>
         <Section delay={0.3}>
