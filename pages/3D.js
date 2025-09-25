@@ -1,5 +1,5 @@
 import Layout from '../components/layouts/article'
-import Image from 'next/image'
+import Image from '../components/image'
 import { ImgGrid } from '../components/grid-item'
 
 const CGI = () => (

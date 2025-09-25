@@ -42,6 +42,7 @@ export const SitesGridItem = ({ children, id, title, thumbnail }) => (
 
 export const ImgGrid = ({ children, title, delay = 0 }) => (
     <Section delay={delay}>
+        <GridItemStyle />
         <Heading as="h3" variant="section-title">
             {title}
         </Heading>
@@ -54,8 +55,35 @@ export const ImgGrid = ({ children, title, delay = 0 }) => (
 export const GridItemStyle = () => (
     <Global
         styles={`
-        .grid-item-thumbnail {
-          border-radius: 12px;
+        .grid-item-thumbnail, .grid-item-thumbnail img{
+          border-radius: 8px;
+        }
+        img.grid-item-thumbnail, .grid-item-thumbnail img{
+          cursor: zoom-in;
+        }
+        .grid-item-thumbnail.full-screen {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0, 0, 0, 0.6);
+          z-index: 1000;
+          cursor: zoom-out;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        .grid-item-thumbnail.full-screen img{
+          width: max(732px, 60%) !important;
+          min-width: 0 !important;
+          cursor: zoom-out;
+        }
+        .grid-item-thumbnail.full-screen p{
+          color: var(--chakra-colors-whiteAlpha-900);
+          font-weight: 700;
+          font-size: 1.2em;
         }
       `}
     />
