@@ -11,6 +11,12 @@ const CGI = () => (
                 className="grid-item-thumbnail"
                 placeholder="blur"
             />
+            <Image
+                src={require('../public/rendus/decos-v2.jpg')}
+                alt={'deuxième itération de décors 3D'}
+                className="grid-item-thumbnail"
+                placeholder="blur"
+            />
         </ImgGrid>
         <ImgGrid title="Personnage" delay={0.2}>
             <Image
